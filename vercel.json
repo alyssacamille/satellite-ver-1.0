@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "src/main.jsx", // Adjust the source file path as needed
+      "use": "@vercel/node12", // Use the appropriate Vercel builder
+      "config": {
+        "build": {
+          "rollupOptions": {
+            "external": [
+              "react-router-dom"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
