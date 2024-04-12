@@ -1,17 +1,5 @@
 {
   "builds": [
-    {
-      "src": "src/main.jsx",
-      "use": "@vercel/node12",
-      "config": {
-        "build": {
-          "rollupOptions": {
-            "external": [
-              "react-router-dom"
-            ]
-          }
-        }
-      }
-    }
+    { "src": "src/main.jsx", "use": "@vercel/node12" }
   ]
 }
