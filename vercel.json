@@ -1,8 +1,8 @@
 {
   "builds": [
     {
-      "src": "src/main.jsx", // Adjust the source file path as needed
-      "use": "@vercel/node12", // Use the appropriate Vercel builder
+      "src": "src/main.jsx",
+      "use": "@vercel/node12",
       "config": {
         "build": {
           "rollupOptions": {
