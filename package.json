@@ -1,6 +1,5 @@
 {
   "name": "satellite",
-  "private": "true",
   "scripts": {
     "build": "react-scripts build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
