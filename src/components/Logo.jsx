@@ -7,8 +7,9 @@ export default function Logo() {
   return (
     <div>
       <div >
-        <img className='satellite-logo' src='src/assets/satellite-logo.svg' alt="Satellite Logo"  />
+        <img className='satellite-logo' src={Logo} alt="Satellite Logo"  />
       </div>
     </div>
   )
 }
+// js on html variables {name}
